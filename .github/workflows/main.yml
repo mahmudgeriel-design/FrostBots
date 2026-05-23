@@ -12,9 +12,9 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn -f FrostBots/pom.xml clean package
+      run: mvn -f FrostBot/pom.xml clean package
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:
         name: FakePlayersPlugin
-        path: FrostBots/target/*.jar
+        path: FrostBot/target/*.jar
