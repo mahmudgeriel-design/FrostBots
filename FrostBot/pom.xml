@@ -16,19 +16,19 @@
     </properties>
 
     <repositories>
-        <!-- Официальный публичный склад кодов SpigotMC -->
+        <!-- Вечный независимый архив JitPack -->
         <repository>
-            <id>spigotmc-repo</id>
-            <url>https://spigotmc.org</url>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
         </repository>
     </repositories>
 
     <dependencies>
-        <!-- Полноценный Spigot API 1.16.5, который вернет все методы типа getConfig() -->
+        <!-- Чистая и целая сборка Spigot API 1.16.5 напрямую из Гит-Архива -->
         <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-api</artifactId>
-            <version>1.16.5-R0.1-SNAPSHOT</version>
+            <groupId>com.github.btohamy</groupId>
+            <artifactId>Spigot-API</artifactId>
+            <version>1.16.5</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
