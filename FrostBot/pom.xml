@@ -16,7 +16,7 @@
     </properties>
 
     <repositories>
-        <!-- Твой рабочий сайт со скриншота -->
+        <!-- Рабочий репозиторий с твоего скриншота -->
         <repository>
             <id>phoenix616-repo</id>
             <url>https://phoenix616.dev</url>
@@ -24,7 +24,7 @@
     </repositories>
 
     <dependencies>
-        <!-- Рабочее ядро 1.16.5 -->
+        <!-- Рабочее Spigot ядро 1.16.5 -->
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
